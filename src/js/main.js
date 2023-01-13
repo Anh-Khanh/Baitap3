@@ -1,5 +1,5 @@
-var menulist = document.querySelector(".list--menu");
-var itemmenu = menulist.querySelectorAll(".itemmenu");
+const menulist = document.querySelector(".list--menu");
+const itemmenu = menulist.querySelectorAll(".itemmenu");
 for (var i = 0; i < itemmenu.length; i++) {
   itemmenu[i].addEventListener("click", function () {
     var current = document.getElementsByClassName("active");
